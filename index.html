@@ -3,8 +3,79 @@
     <head>
         <title>LOCO</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="./fonts.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-
+        <div class="wrapper">
+            <div class="first-page">
+                <header class="header">
+                    <div class="header__logo-block">  
+                        <div class="header__logo">LOCO</div>
+                        <div class="header__language">RU</div>
+                    </div> 
+                    <div class="header__hamburger">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="menu__item" href="#">Сумка</a></li>
+                            <li><a class="menu__item" href="#">Комплект</a></li>
+                            <li><a class="menu__item" href="#">одежда</a></li>
+                        </ul>
+                    </div>
+                </header>
+                <section class="main">
+                    <h1 class="bag__title">Новая коллекция</h1>
+                    <p class="bag__description">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+                    <div class="bag__buttons">
+                        <a href="#" class="bag__button_next">ЧИТАТЬ ДАЛЬШЕ</a>
+                        <a href="#" class="bag__button_recommend">ДРУГИЕ ПРЕДЛОЖЕНИЯ</a>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <div class="footer__instagram"></div>
+                    <div class="footer__vk"></div>
+                    <div class="footer__navigator"></div>
+                </footer>
+            </div>
+            <section class="bag">
+                <div class="bag__content">
+                    <div class="bag-inner">
+                        <h2 class="bag-inner__title">Кожаный клатч</h2>
+                        <h3 class="bag-inner__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</h3>
+                        <p class="bag-inner__description">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+                        <div class="bag-inner__choice">
+                            <div class="bag-inner__choice_color"></div>
+                            <div class="bag-inner__choice_price ">1990₽</div>
+                        </div>
+                        <div class="bag-inner__buttons">
+                            <a href="#" class="bag-inner__button_number"><span class="minus">-</span>1<span class="plus">+</span></a>
+                            <a href="#" class="bag-inner__button_add">ДОБАВИТЬ В КОРЗИНУ</a> 
+                        </div>
+                    </div>
+                    <div class="bag__link">
+                        <a href="#" class="bag-link__other">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+                    </div>
+                </div>
+            </section>
+            <section class="clothes">
+                <div class="clothes-content">
+                    <div class="clothes-inner">
+                        <h2 class="clothes-inner__title">Serene Total Look</h2>
+                        <h3 class="clothes-inner__subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</h3>
+                        <p class="clothes-inner__description">Джинсы, свитер, обувь. В комплект также входит пакет ароматного чая и кружка.</p>
+                        <div class="clothes-inner__buttons">
+                            <a class="clothes-inner_button_mumber" href="#"><span class="minus">-</span>1<span class="plus">+</span></a>
+                            <a class="clothes-inner__button_add" href="#">ДОБАВИТЬ В КОРЗИНУ</a>
+                        </div>
+                    </div>
+                    <div class="clothes-content__link">
+                        <a href="#" class="clothes-content__link_other">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+                    </div>
+                </div>    
+            </section>
+        </div>
     </body>
 </html>
