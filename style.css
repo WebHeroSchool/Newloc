@@ -1,0 +1,20 @@
+.header__logo {
+  font-family: 'Montserrat Medium';
+}
+
+.header__language {
+  font-family: 'Montserrat Medium';
+}
+
+.bag__title {
+  font-family: 'Montserrat Bold';
+  font-size: 80px;
+}
+
+.bag__description {
+  font-family: 'Montserrat Regular'; 
+}
+
+.bag__buttons {
+  font-family: 'Montserrat Medium';    
+}
